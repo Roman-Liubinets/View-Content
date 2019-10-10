@@ -1,3 +1,11 @@
 VIEW
+
 <ng-content selector="h1"> </ng-content>
 <ng-content selector="main"> </ng-content>
+
+<template #template>
+  <h1>ng Tempalate Title</h1>
+  <p>ng Template Paragraph</p>
+</template>
+
+<ng-container *ngTemplateOutlet="template"></ng-container>
