@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ItemComponent } from './item/item.component';
 import { MastedComponent } from './masted/masted.component';
 import { ColoryDirective } from './colory.directive';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
     MastedComponent,
-    ColoryDirective
+    ColoryDirective,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

@@ -36,4 +36,8 @@ export class ItemComponent implements OnInit, AfterContentInit {
     // const array = this.mastedElement.toArray();
     // console.log("array", array);
   }
+
+  getSomething() {
+    console.log("Item Component");
+  }
 }
