@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ItemComponent } from './item/item.component';
+import { MastedComponent } from './masted/masted.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ItemComponent
+    ItemComponent,
+    MastedComponent
   ],
   imports: [
     BrowserModule,
