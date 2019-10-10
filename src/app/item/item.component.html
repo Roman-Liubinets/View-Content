@@ -8,5 +8,15 @@ VIEW
   <p>ng Template Paragraph</p>
   <button (click)="c.changeColor('green')">Change Color</button>
 </template>
+<!-- <ul>
+  <li *ngFor="let time of [1, 2, 3, 4, 5, 6]">
+    <h1 *delay="time">
+      Structural Directive
+    </h1>
+  </li>
+</!-->
+<h1 *delay>
+  Structural Directive
+</h1>
 
 <ng-container *ngTemplateOutlet="template"></ng-container>
