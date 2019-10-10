@@ -4,8 +4,9 @@ VIEW
 <ng-content selector="main"> </ng-content>
 
 <template #template>
-  <h1>ng Tempalate Title</h1>
+  <h1 colory #c="colory">ng Tempalate Title</h1>
   <p>ng Template Paragraph</p>
+  <button (click)="c.changeColor('green')">Change Color</button>
 </template>
 
 <ng-container *ngTemplateOutlet="template"></ng-container>

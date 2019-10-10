@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ItemComponent } from './item/item.component';
 import { MastedComponent } from './masted/masted.component';
+import { ColoryDirective } from './colory.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
-    MastedComponent
+    MastedComponent,
+    ColoryDirective
   ],
   imports: [
     BrowserModule,
